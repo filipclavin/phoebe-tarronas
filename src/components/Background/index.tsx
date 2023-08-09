@@ -1,8 +1,8 @@
-import { BackgroundWrapper } from "./styled";
+import "./style.css"
 
 export default function Background() {
   return (
-    <BackgroundWrapper className="bg">
+    <div className="bg">
       <div className="bg-segment" style={{backgroundColor: "#FFFFFF"}} />
       <div className="bg-segment" style={{backgroundColor: "#FDEDF2"}} />
       <div className="bg-segment" style={{backgroundColor: "#FBDBE5"}} />
@@ -28,7 +28,7 @@ export default function Background() {
       <div className="bg-segment" style={{backgroundColor: "#360717"}} />
       <div className="bg-segment" style={{backgroundColor: "#24040F"}} />
       <div className="bg-segment" style={{backgroundColor: "#120208"}} />
-    </BackgroundWrapper>
+    </div>
       
   )
 }
